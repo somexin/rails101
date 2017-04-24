@@ -8,5 +8,10 @@ Rails.application.routes.draw do
     end
     resources :posts
   end
+
+  namespace :account do
+  resources :groups
+end
+#2017年4月24日，
   root 'groups#index'
 end
