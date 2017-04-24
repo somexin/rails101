@@ -11,7 +11,8 @@ Rails.application.routes.draw do
 
   namespace :account do
   resources :groups
+  resources :posts
 end
-#2017年4月24日，
+
   root 'groups#index'
 end
